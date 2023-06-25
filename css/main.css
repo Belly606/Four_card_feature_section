@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	display: grid;
+	place-items: center;
+	background-color: hsl(0, 0%, 98%);
+}
+header {
+	text-align: center;
+	padding: 20px 0;
+	width: 64vh;
+	margin: auto;
+}
+header h1 {
+	color: hsl(234, 12%, 34%);
+	font-weight: 200;
+}
+header h2 {
+	color: hsl(234, 12%, 34%);
+	font-size: 2em;
+	margin-top: -.4em;
+}
+header p {
+	color: hsl(229, 6%, 66%);
+	margin-top: 1em;
+}
+main .container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	gap: 1.5em;
+}
+main .container .card {
+	width: 18em;
+	height: 12em;
+	position: relative;
+	padding: 1.5em;
+	border-top: 5px solid;
+	background-color: white;
+	box-shadow: 0px 0px 4px 1px rgb(0%, 0%, 0%, 30%);
+	border-radius: 0.9em;
+	-webkit-border-radius: 0.9em;
+	-moz-border-radius: 0.9em;
+	-ms-border-radius: 0.9em;
+	-o-border-radius: 0.9em;
+}
+main .container .super {
+	border-color: hsl(180, 62%, 55%);
+}
+main .container .team {
+	border-color:hsl(0, 78%, 62%);
+}
+main .container .karma {
+	border-color: hsl(34, 97%, 64%);
+	margin-top: 1.5em;
+}
+main .container .calc {
+	border-color: hsl(212, 86%, 64%);
+}
+main .container .card h3 {
+	color: hsl(234, 12%, 34%);
+}
+main .container .card p {
+	color: hsl(229, 6%, 66%);
+}
+main .container .card img {
+	position: absolute;
+	right: 1.5em;
+	bottom: 1.5em;
+	width: 3em;
+}
+.attribution { 
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	text-decoration: none;
+	color: hsl(0, 78%, 62%);
+	font-weight: bold;
+}
