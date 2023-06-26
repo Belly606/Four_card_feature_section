@@ -41,6 +41,9 @@ header h2 {
 	header h2 {
 		font-size: 1.5em;
 	}
+	header h2 {
+		margin-top: .2em;	
+	}
 }
 header p {
 	color: hsl(229, 6%, 66%);
